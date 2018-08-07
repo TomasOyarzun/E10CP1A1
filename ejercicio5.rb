@@ -26,4 +26,5 @@ end
 conejo = Conejo.new('Bugs Bunny')
 conejo.saludar
 conejo.dieta
-puts Herviboro.definir
+#Para conocer la herencia de una clase.
+puts conejo.is_a? Animal
